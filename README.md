@@ -2,6 +2,10 @@
 
 Learning the basics of explainable AI.
 
+An Elephant as a trained-VGG19 network sees:
+
+![elephant](./vgg_results/elephant_map.jpg)
+
 ## GradCAMs:
 
 Gradient weighted Class Activation Mapping (Grad-CAM) uses gradients of a particular target that flows through the convolutional network to localize and highlight regions of the target in the image.
