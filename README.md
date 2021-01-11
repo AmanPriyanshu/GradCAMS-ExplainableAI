@@ -36,3 +36,15 @@ for i in range(number_of_activations):
 ```
 
 Now, again we take a mean across the number_of_activations dimension of the above activation tensor. This allows us to get a tensor of (1, dims_activation[1], dims_activation[0]), which is then normalized to become the heatmap.
+
+### Original Name:
+
+![original_name](./gradCAM_results/original_image.jpg)
+
+### Heatmap:
+
+![heatmap](./gradCAM_results/heatmap.jpg)
+
+### Super-Imposed Image:
+
+![superimposed_image](./gradCAM_results/superimposed_image.jpg)
